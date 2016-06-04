@@ -1,0 +1,15 @@
+PODS:
+  - LTMorphingLabel (0.2.0)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - LTMorphingLabel
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+PODFILE CHECKSUM: 33efceaeec8c7e9dfc90da0239df884ee2010525
+
+COCOAPODS: 1.0.0

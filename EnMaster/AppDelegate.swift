@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+    
+        // Enable storing and querying data from Local Datastore.
+        // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
+        Parse.enableLocalDatastore()
+        
+        // ****************************************************************************
+        // Uncomment this line if you want to enable Crash Reporting
+        //ParseCrashReporting.enable()
+        //
+        // Uncomment and fill in with your Parse credentials:
+        Parse.setApplicationId("QxdSFoLspAFZz9i8cN0eERexLGZVvLI3Qee1dgXb",
+                               clientKey: "vnm2Mas1Ad41ubHBAGLA2hYB36j1NvluS6hfu3TD")
+        //
+        // If you are using Facebook, uncomment and add your FacebookAppID to your bundle's plist as
+        // described here: https://developers.facebook.com/docs/getting-started/facebook-sdk-for-ios/
+        // Uncomment the line inside ParseStartProject-Bridging-Header and the following line here:
+        // PFFacebookUtils.initializeFacebook()
+        // ****************************************************************************
+        
         return true
     }
 
@@ -43,4 +64,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

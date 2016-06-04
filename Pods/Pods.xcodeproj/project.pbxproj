@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01699C1BD2F7AC795A0930EF6A244AF0 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D5148EEED936CA1B9001D5FCABB4F9 /* IsaoTextField.swift */; };
+		04913062FB19F572704D1F80F24D0F1E /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0259255520A774F9F7DCD1811CB0D0 /* Fragment.png */; };
+		067DB3EE3BC203D3B25D7635F09451EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		09655714894296138E974CBC74484E5C /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811C388E9CE5D9CC3E6FCDA0BAA33B4 /* LTMorphingLabel.swift */; };
+		0B0B16FE44CBECB512D2FC308055C7BB /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F6A6A9A641160CC19FE77F7B03A34 /* LTMorphingLabel-dummy.m */; };
+		10DA04EC085D11D23E0E3F0DBABE5114 /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DD50E64BD004D2793AF4214FDA67A8 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12409F3CE9F7F76D84482F253CD7161E /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4A974867ACFF3DD6BB9385B2C68DB /* MadokaTextField.swift */; };
+		1274BBA246640E419C6CD58307DFE2D2 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F8C71C2E877CED1D197966F41BC0D /* YoshikoTextField.swift */; };
+		1CF8DFA896A6618005B677B8793DBF0E /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CF6D84615F82706AC524F873E72A56 /* Fire.png */; };
+		2E3C968E3EEC64354336500A25480860 /* Pods-EnMasterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C5D1D4DEF0002301FB0B012FABB17 /* Pods-EnMasterTests-dummy.m */; };
+		31E02272D6A469E5F5F434BE482481CD /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7C2EA6EB9AC8DB3F4BFFFA760DB12D /* JiroTextField.swift */; };
+		35D1068A16F7B860DBF2FF11F7E88197 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCFA5C93FB7C6B21F65DA93894F445 /* LTMorphingEffect.swift */; };
+		401A7DAFE42E4A8D8B065ABB2B5028D1 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AABDD3CB96DB9581C730BFBB74326 /* LTMorphingLabel+Sparkle.swift */; };
+		48D61A461592160C704EBD652E550794 /* Pods-EnMasterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D09D1EB46DCAB1C41A8A38149B384 /* Pods-EnMasterUITests-dummy.m */; };
+		50D83DE01365D4CB4D7D4A99E14E5F0F /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4D662839FB3E5AA6A221583A334DCE /* TextFieldsEffects.swift */; };
+		573B13ABBF79FA6ABDACA8F14750D83F /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF4F1E60F95FD0BE36920875F575D50 /* Sparkle.png */; };
+		74DEC2D3601595D8C6850C8FB7173158 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60C91573D4A685F322507B18B1BB1E /* LTCharacterLimbo.swift */; };
+		7749C0F56261255C270401EFF4F79806 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC2DD49A3E56EBE98D86585D013951 /* YokoTextField.swift */; };
+		81488A923C1C8B9C52108C0F1AEDE563 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 172A848F8174E1E7D27F6A5C4DD50DA4 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CCC01A0501720443407C7842A2F8EE /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93434F75093653EAB09174C1DA715CDC /* LTMorphingLabel+Evaporate.swift */; };
+		87A5677A6AE8315FC08C7AFDA06C5E85 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAC5319C3043562CB36516A458F699E /* LTMorphingLabel+Anvil.swift */; };
+		8E04E60186BBBDFD9486E14B9D2D0A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		94C184FAE53AE7FE2DAAF71250C88399 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88CE9D459A74C38EE5F559B4117D520 /* LTEmitterView.swift */; };
+		97BA74085CE3602BC85582B8FD6011A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		9CD2F676F12CF59997D469DC44040977 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05C110D95577ADA8712BD5D9724DD0 /* LTEasing.swift */; };
+		AAB13C2E620CAE549528420C0279AF66 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13296E62C66BCB020FC7B648D63D73 /* MinoruTextField.swift */; };
+		B1ED673D0150E6B85DD7C8F0E1535567 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 748D42ABEB1E83A8BDFA2D7E30FBCD04 /* TextFieldEffects-dummy.m */; };
+		B5477ADF6803E1EB720764CF10B65758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		BA25E1C4EFB2B53764E95238C01FC541 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C86D9BA051920C328310C8644311625B /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BBC9BD3FD13E0ED533FD5F4AD69752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		C4283C1D507B8559E0B14B14266DBD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		C788E35A39D55404D6589550E8CA851E /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA809B120F42109837E8A384D5D57B /* KaedeTextField.swift */; };
+		CD7306415B076D56DEC175B4E1443604 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E6E450784BAE22880E00E7D69E196 /* AkiraTextField.swift */; };
+		CFC6568F9625CFEDE89544D5E106EE56 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ACB3C7844F35658DE1157787AE0011 /* LTMorphingLabel+Fall.swift */; };
+		D40D84C336EB60A2349DA835277B3BB6 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891A04DC1C9522F14DC800870D0813A /* LTMorphingLabel+Burn.swift */; };
+		D4BEFE9697D2C98014CEA515831D78EC /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45EBC72738D27AC2438A6C231C7613B /* NSString+LTMorphingLabel.swift */; };
+		D7AF1C498BACC7A8145392B6E3AC91FB /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D570C524F8090D8136D2273F3FBE158 /* LTMorphingLabel+Pixelate.swift */; };
+		DC5ACFEE43A0A726EF37EF2C32426C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		DD64BBA0AE179D2ADAC969F41F0F7151 /* Pods-EnMaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99D1A2E6C660169E03E968C3A14814 /* Pods-EnMaster-dummy.m */; };
+		E64E0DA42FF43A0CE84FC8E07BA9C2F4 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD85C80B003E7BE0DA27981C9AEBB4 /* Smoke.png */; };
+		EB8FCAB24063BD581386E609BFD50414 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA38A9C42489C27701E7931D09A616B /* HoshiTextField.swift */; };
+		F13467AA015C5FD221251107BBD27C32 /* Pods-EnMaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C1747DAD715469FD2BA8C709FBD5E3 /* Pods-EnMaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E81808738F3C191C76926A3F64BB9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCBD6C869DCC15AF62D43471CB4592C;
+			remoteInfo = LTMorphingLabel;
+		};
+		8A40F4BE4102D29EE38F9A3F6E0D7293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFFBAC987FCE4DCA62E0184BFA599B9;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028D89DB9CCFFE620D902082A46870FC /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A60C91573D4A685F322507B18B1BB1E /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		0C99D1A2E6C660169E03E968C3A14814 /* Pods-EnMaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnMaster-dummy.m"; sourceTree = "<group>"; };
+		0FF2DB21F8C0EF6D0EB61A5FC19B55B2 /* Pods-EnMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		140974183BDCC21B69FF88D29AC84C16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172A848F8174E1E7D27F6A5C4DD50DA4 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		1914D2FA77357BD91F5B7950B198A334 /* Pods-EnMaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnMaster-acknowledgements.plist"; sourceTree = "<group>"; };
+		19DD50E64BD004D2793AF4214FDA67A8 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		1BAC5319C3043562CB36516A458F699E /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		1BD457E0AE3B163B797539652F2FFDAA /* libPods-EnMasterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnMasterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E05C110D95577ADA8712BD5D9724DD0 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		1E13296E62C66BCB020FC7B648D63D73 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		1EAF81FF2AFA43D867D35CA36617CB79 /* Pods-EnMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		217068D5A6FDA5580EA2B64027AC12AA /* Pods-EnMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMaster.release.xcconfig"; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		29C4A974867ACFF3DD6BB9385B2C68DB /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		2CBD85C80B003E7BE0DA27981C9AEBB4 /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		336F6A6A9A641160CC19FE77F7B03A34 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		38C1747DAD715469FD2BA8C709FBD5E3 /* Pods-EnMaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnMaster-umbrella.h"; sourceTree = "<group>"; };
+		3951B997BF482A93B724883E89BE2B94 /* Pods-EnMasterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnMasterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		399F5C809988C064346E48B252926FC9 /* Pods-EnMasterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnMasterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41152AA8756691E325B2F06ECD9AE486 /* Pods-EnMaster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMaster-resources.sh"; sourceTree = "<group>"; };
+		423F8C71C2E877CED1D197966F41BC0D /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		4318A7CB7599E6CD365773E379F65429 /* Pods-EnMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		440067B55DD733F10A71B8A0674F41B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455AABDD3CB96DB9581C730BFBB74326 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		4AA33EC6486BC18BD8625C02F71CB924 /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		4CDFD8313E666DC5FAFB47A236CE5145 /* Pods-EnMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		5891A04DC1C9522F14DC800870D0813A /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		5CBC051CC3089B1EFF895BBF3B89ECFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF4F1E60F95FD0BE36920875F575D50 /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		701E6E450784BAE22880E00E7D69E196 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		71CF6D84615F82706AC524F873E72A56 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		748D42ABEB1E83A8BDFA2D7E30FBCD04 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		77F8DC7E87D19945EC66A8CEACE5304A /* Pods_EnMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7811C388E9CE5D9CC3E6FCDA0BAA33B4 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		7A4D662839FB3E5AA6A221583A334DCE /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		7E777B8005CF04858686D68F91C8A087 /* Pods-EnMaster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMaster-frameworks.sh"; sourceTree = "<group>"; };
+		7FCAE6A9B26894594ABFAEFB14EC4ABA /* Pods-EnMasterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnMasterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80F4054CBD7E772C3655B07631013FA8 /* Pods-EnMasterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMasterTests-resources.sh"; sourceTree = "<group>"; };
+		84BCFA5C93FB7C6B21F65DA93894F445 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		8520A248BCC66FB1BF5D43599A2D6BEB /* Pods-EnMaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnMaster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86430CD417FAD7E031BF47EF2D874AA4 /* Pods-EnMasterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMasterTests-frameworks.sh"; sourceTree = "<group>"; };
+		882AD732B386533A750C755629EF1E87 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		93434F75093653EAB09174C1DA715CDC /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B326FA6A2DA1070FBE4921A009FD961 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C65A9DC4A20CA34B00614DA22AE9473 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		9D570C524F8090D8136D2273F3FBE158 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		9F7C5D1D4DEF0002301FB0B012FABB17 /* Pods-EnMasterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnMasterTests-dummy.m"; sourceTree = "<group>"; };
+		A5E755BE91C353960D329EC8586ED93B /* libPods-EnMasterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnMasterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ACCDE77F8CBEF392C63091968A7EB40E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		B42623F1A8CEB0461623293E23B9BE3B /* Pods-EnMasterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnMasterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B45EBC72738D27AC2438A6C231C7613B /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+LTMorphingLabel.swift"; path = "LTMorphingLabel/NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		B704A2523A2CFCF23B2E1D3EBEB9882B /* Pods-EnMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBA38A9C42489C27701E7931D09A616B /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		C86D9BA051920C328310C8644311625B /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		CBAA809B120F42109837E8A384D5D57B /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		CF7C2EA6EB9AC8DB3F4BFFFA760DB12D /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		D1D5148EEED936CA1B9001D5FCABB4F9 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		D7976700AE0AFED7CEBC7BD837532280 /* Pods-EnMasterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMasterUITests-resources.sh"; sourceTree = "<group>"; };
+		D7ACB3C7844F35658DE1157787AE0011 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		DE6358DF646912109EF4DBB79FE8AFBD /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
+		E3CE907BBCCBCA95606896AA3AEBF053 /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88CE9D459A74C38EE5F559B4117D520 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		EEEC2DD49A3E56EBE98D86585D013951 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		EF0259255520A774F9F7DCD1811CB0D0 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		EF4D09D1EB46DCAB1C41A8A38149B384 /* Pods-EnMasterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnMasterUITests-dummy.m"; sourceTree = "<group>"; };
+		F2D3DEF2CEC0E8BF2B34EC622DA23036 /* Pods-EnMasterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnMasterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FA6B0C57A0ED8564F7A3B0DD2DCC868B /* Pods-EnMaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EnMaster.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4EA1B394794C6A87EC7CD3AFB870DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067DB3EE3BC203D3B25D7635F09451EE /* Foundation.framework in Frameworks */,
+				97BA74085CE3602BC85582B8FD6011A9 /* QuartzCore.framework in Frameworks */,
+				C3BBC9BD3FD13E0ED533FD5F4AD69752 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A93DE39404CA8DF331B033741A7087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5477ADF6803E1EB720764CF10B65758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50064EFC36C7FF18239061CC15AA6C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E04E60186BBBDFD9486E14B9D2D0A8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C6E4DD5F6C50F6B4CC6E6DE131EC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4283C1D507B8559E0B14B14266DBD00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F831C8932F25E8AB33BB14B10F1D5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5ACFEE43A0A726EF37EF2C32426C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E07C3301E0DF1C636B2AA815C8D6A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				140974183BDCC21B69FF88D29AC84C16 /* Info.plist */,
+				028D89DB9CCFFE620D902082A46870FC /* TextFieldEffects.modulemap */,
+				ACCDE77F8CBEF392C63091968A7EB40E /* TextFieldEffects.xcconfig */,
+				748D42ABEB1E83A8BDFA2D7E30FBCD04 /* TextFieldEffects-dummy.m */,
+				9C65A9DC4A20CA34B00614DA22AE9473 /* TextFieldEffects-prefix.pch */,
+				172A848F8174E1E7D27F6A5C4DD50DA4 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D756CC3950ABE6A2F70A2C0C9A28039 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61063121AB78F2658E677E2A813B62B3 /* Pods-EnMaster */,
+				655CE60748708CF9CE8DCEA60D5E79CA /* Pods-EnMasterTests */,
+				A3105DA7F9E6B58B0B1AD68020351D4C /* Pods-EnMasterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61063121AB78F2658E677E2A813B62B3 /* Pods-EnMaster */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC051CC3089B1EFF895BBF3B89ECFD /* Info.plist */,
+				FA6B0C57A0ED8564F7A3B0DD2DCC868B /* Pods-EnMaster.modulemap */,
+				8520A248BCC66FB1BF5D43599A2D6BEB /* Pods-EnMaster-acknowledgements.markdown */,
+				1914D2FA77357BD91F5B7950B198A334 /* Pods-EnMaster-acknowledgements.plist */,
+				0C99D1A2E6C660169E03E968C3A14814 /* Pods-EnMaster-dummy.m */,
+				7E777B8005CF04858686D68F91C8A087 /* Pods-EnMaster-frameworks.sh */,
+				41152AA8756691E325B2F06ECD9AE486 /* Pods-EnMaster-resources.sh */,
+				38C1747DAD715469FD2BA8C709FBD5E3 /* Pods-EnMaster-umbrella.h */,
+				4CDFD8313E666DC5FAFB47A236CE5145 /* Pods-EnMaster.debug.xcconfig */,
+				217068D5A6FDA5580EA2B64027AC12AA /* Pods-EnMaster.release.xcconfig */,
+			);
+			name = "Pods-EnMaster";
+			path = "Target Support Files/Pods-EnMaster";
+			sourceTree = "<group>";
+		};
+		655CE60748708CF9CE8DCEA60D5E79CA /* Pods-EnMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B42623F1A8CEB0461623293E23B9BE3B /* Pods-EnMasterTests-acknowledgements.markdown */,
+				3951B997BF482A93B724883E89BE2B94 /* Pods-EnMasterTests-acknowledgements.plist */,
+				9F7C5D1D4DEF0002301FB0B012FABB17 /* Pods-EnMasterTests-dummy.m */,
+				86430CD417FAD7E031BF47EF2D874AA4 /* Pods-EnMasterTests-frameworks.sh */,
+				80F4054CBD7E772C3655B07631013FA8 /* Pods-EnMasterTests-resources.sh */,
+				0FF2DB21F8C0EF6D0EB61A5FC19B55B2 /* Pods-EnMasterTests.debug.xcconfig */,
+				B704A2523A2CFCF23B2E1D3EBEB9882B /* Pods-EnMasterTests.release.xcconfig */,
+			);
+			name = "Pods-EnMasterTests";
+			path = "Target Support Files/Pods-EnMasterTests";
+			sourceTree = "<group>";
+		};
+		71C6F647B8754138ED244878ED2CBC9B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				701E6E450784BAE22880E00E7D69E196 /* AkiraTextField.swift */,
+				BBA38A9C42489C27701E7931D09A616B /* HoshiTextField.swift */,
+				D1D5148EEED936CA1B9001D5FCABB4F9 /* IsaoTextField.swift */,
+				CF7C2EA6EB9AC8DB3F4BFFFA760DB12D /* JiroTextField.swift */,
+				CBAA809B120F42109837E8A384D5D57B /* KaedeTextField.swift */,
+				29C4A974867ACFF3DD6BB9385B2C68DB /* MadokaTextField.swift */,
+				1E13296E62C66BCB020FC7B648D63D73 /* MinoruTextField.swift */,
+				7A4D662839FB3E5AA6A221583A334DCE /* TextFieldsEffects.swift */,
+				EEEC2DD49A3E56EBE98D86585D013951 /* YokoTextField.swift */,
+				423F8C71C2E877CED1D197966F41BC0D /* YoshikoTextField.swift */,
+				00E07C3301E0DF1C636B2AA815C8D6A4 /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		74B16098D5A9E6205D9CB339F005ED1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E4797D117833CC68917433F93322270 /* LTMorphingLabel */,
+				71C6F647B8754138ED244878ED2CBC9B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				74B16098D5A9E6205D9CB339F005ED1D /* Pods */,
+				E508EA5F21660BAA1FCA47DA298D74CA /* Products */,
+				4D756CC3950ABE6A2F70A2C0C9A28039 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E4797D117833CC68917433F93322270 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0A60C91573D4A685F322507B18B1BB1E /* LTCharacterLimbo.swift */,
+				1E05C110D95577ADA8712BD5D9724DD0 /* LTEasing.swift */,
+				E88CE9D459A74C38EE5F559B4117D520 /* LTEmitterView.swift */,
+				84BCFA5C93FB7C6B21F65DA93894F445 /* LTMorphingEffect.swift */,
+				19DD50E64BD004D2793AF4214FDA67A8 /* LTMorphingLabel.h */,
+				7811C388E9CE5D9CC3E6FCDA0BAA33B4 /* LTMorphingLabel.swift */,
+				1BAC5319C3043562CB36516A458F699E /* LTMorphingLabel+Anvil.swift */,
+				5891A04DC1C9522F14DC800870D0813A /* LTMorphingLabel+Burn.swift */,
+				93434F75093653EAB09174C1DA715CDC /* LTMorphingLabel+Evaporate.swift */,
+				D7ACB3C7844F35658DE1157787AE0011 /* LTMorphingLabel+Fall.swift */,
+				9D570C524F8090D8136D2273F3FBE158 /* LTMorphingLabel+Pixelate.swift */,
+				455AABDD3CB96DB9581C730BFBB74326 /* LTMorphingLabel+Sparkle.swift */,
+				B45EBC72738D27AC2438A6C231C7613B /* NSString+LTMorphingLabel.swift */,
+				C48A5C9C425EE33043D542AEAA1958B3 /* Resources */,
+				FCB2167DA94418FC6B6AEB9F7217B705 /* Support Files */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		A3105DA7F9E6B58B0B1AD68020351D4C /* Pods-EnMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				399F5C809988C064346E48B252926FC9 /* Pods-EnMasterUITests-acknowledgements.markdown */,
+				7FCAE6A9B26894594ABFAEFB14EC4ABA /* Pods-EnMasterUITests-acknowledgements.plist */,
+				EF4D09D1EB46DCAB1C41A8A38149B384 /* Pods-EnMasterUITests-dummy.m */,
+				F2D3DEF2CEC0E8BF2B34EC622DA23036 /* Pods-EnMasterUITests-frameworks.sh */,
+				D7976700AE0AFED7CEBC7BD837532280 /* Pods-EnMasterUITests-resources.sh */,
+				1EAF81FF2AFA43D867D35CA36617CB79 /* Pods-EnMasterUITests.debug.xcconfig */,
+				4318A7CB7599E6CD365773E379F65429 /* Pods-EnMasterUITests.release.xcconfig */,
+			);
+			name = "Pods-EnMasterUITests";
+			path = "Target Support Files/Pods-EnMasterUITests";
+			sourceTree = "<group>";
+		};
+		C48A5C9C425EE33043D542AEAA1958B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71CF6D84615F82706AC524F873E72A56 /* Fire.png */,
+				EF0259255520A774F9F7DCD1811CB0D0 /* Fragment.png */,
+				2CBD85C80B003E7BE0DA27981C9AEBB4 /* Smoke.png */,
+				6BF4F1E60F95FD0BE36920875F575D50 /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E508EA5F21660BAA1FCA47DA298D74CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD457E0AE3B163B797539652F2FFDAA /* libPods-EnMasterTests.a */,
+				A5E755BE91C353960D329EC8586ED93B /* libPods-EnMasterUITests.a */,
+				E3CE907BBCCBCA95606896AA3AEBF053 /* LTMorphingLabel.framework */,
+				77F8DC7E87D19945EC66A8CEACE5304A /* Pods_EnMaster.framework */,
+				9B326FA6A2DA1070FBE4921A009FD961 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB2167DA94418FC6B6AEB9F7217B705 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				440067B55DD733F10A71B8A0674F41B0 /* Info.plist */,
+				4AA33EC6486BC18BD8625C02F71CB924 /* LTMorphingLabel.modulemap */,
+				DE6358DF646912109EF4DBB79FE8AFBD /* LTMorphingLabel.xcconfig */,
+				336F6A6A9A641160CC19FE77F7B03A34 /* LTMorphingLabel-dummy.m */,
+				882AD732B386533A750C755629EF1E87 /* LTMorphingLabel-prefix.pch */,
+				C86D9BA051920C328310C8644311625B /* LTMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5D1926C75235190BA2B9B1C7E872D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA25E1C4EFB2B53764E95238C01FC541 /* LTMorphingLabel-umbrella.h in Headers */,
+				10DA04EC085D11D23E0E3F0DBABE5114 /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48FABCE7E56062579660249C11D2FE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13467AA015C5FD221251107BBD27C32 /* Pods-EnMaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADAF192DA3A70E78725A58283C25813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81488A923C1C8B9C52108C0F1AEDE563 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFFBAC987FCE4DCA62E0184BFA599B9 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E81816FCEF6099FFD16521EC61194E /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				38287C7B0A4186B952E4806E39F17FDB /* Sources */,
+				8F831C8932F25E8AB33BB14B10F1D5CC /* Frameworks */,
+				DADAF192DA3A70E78725A58283C25813 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 9B326FA6A2DA1070FBE4921A009FD961 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6BFD0F561BD7DC1612C7BF97AAE6BC /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
+			buildPhases = (
+				EC8FE24E635DC3E29FDF20CFAD47AE8F /* Sources */,
+				0E4EA1B394794C6A87EC7CD3AFB870DF /* Frameworks */,
+				B5D1926C75235190BA2B9B1C7E872D15 /* Headers */,
+				F9DBA014C64C012FFED946DB4F6F8A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = E3CE907BBCCBCA95606896AA3AEBF053 /* LTMorphingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D9444483FFB66A0552A46E9B4E9B710 /* Pods-EnMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A859F0BCB1ECCD26E56A079B687C62A /* Build configuration list for PBXNativeTarget "Pods-EnMasterUITests" */;
+			buildPhases = (
+				B36E87A1DDA916E2C246CAF853C8C06C /* Sources */,
+				46A93DE39404CA8DF331B033741A7087 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EnMasterUITests";
+			productName = "Pods-EnMasterUITests";
+			productReference = A5E755BE91C353960D329EC8586ED93B /* libPods-EnMasterUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C69465E2666F4AC4246272F4562A362E /* Pods-EnMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0211E245EB47CD5143FAD3F65E034A88 /* Build configuration list for PBXNativeTarget "Pods-EnMasterTests" */;
+			buildPhases = (
+				D392292C5E432CF1C33EC1EE219625D8 /* Sources */,
+				50064EFC36C7FF18239061CC15AA6C86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EnMasterTests";
+			productName = "Pods-EnMasterTests";
+			productReference = 1BD457E0AE3B163B797539652F2FFDAA /* libPods-EnMasterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED59ADFA96CD3519D2BB4C0ADEBE9849 /* Pods-EnMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E1BDFB25829BFC9B146A4630260780 /* Build configuration list for PBXNativeTarget "Pods-EnMaster" */;
+			buildPhases = (
+				A23F5ECCB90427D15B406F5ACA56F52A /* Sources */,
+				76C6E4DD5F6C50F6B4CC6E6DE131EC7E /* Frameworks */,
+				C48FABCE7E56062579660249C11D2FE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF22A35A82B7BB7CF5F50FEC305B1121 /* PBXTargetDependency */,
+				208B565A0EF2C9AE0AE0D1BA6F67B306 /* PBXTargetDependency */,
+			);
+			name = "Pods-EnMaster";
+			productName = "Pods-EnMaster";
+			productReference = 77F8DC7E87D19945EC66A8CEACE5304A /* Pods_EnMaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E508EA5F21660BAA1FCA47DA298D74CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */,
+				ED59ADFA96CD3519D2BB4C0ADEBE9849 /* Pods-EnMaster */,
+				C69465E2666F4AC4246272F4562A362E /* Pods-EnMasterTests */,
+				3D9444483FFB66A0552A46E9B4E9B710 /* Pods-EnMasterUITests */,
+				0AFFBAC987FCE4DCA62E0184BFA599B9 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9DBA014C64C012FFED946DB4F6F8A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF8DFA896A6618005B677B8793DBF0E /* Fire.png in Resources */,
+				04913062FB19F572704D1F80F24D0F1E /* Fragment.png in Resources */,
+				E64E0DA42FF43A0CE84FC8E07BA9C2F4 /* Smoke.png in Resources */,
+				573B13ABBF79FA6ABDACA8F14750D83F /* Sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38287C7B0A4186B952E4806E39F17FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7306415B076D56DEC175B4E1443604 /* AkiraTextField.swift in Sources */,
+				EB8FCAB24063BD581386E609BFD50414 /* HoshiTextField.swift in Sources */,
+				01699C1BD2F7AC795A0930EF6A244AF0 /* IsaoTextField.swift in Sources */,
+				31E02272D6A469E5F5F434BE482481CD /* JiroTextField.swift in Sources */,
+				C788E35A39D55404D6589550E8CA851E /* KaedeTextField.swift in Sources */,
+				12409F3CE9F7F76D84482F253CD7161E /* MadokaTextField.swift in Sources */,
+				AAB13C2E620CAE549528420C0279AF66 /* MinoruTextField.swift in Sources */,
+				B1ED673D0150E6B85DD7C8F0E1535567 /* TextFieldEffects-dummy.m in Sources */,
+				50D83DE01365D4CB4D7D4A99E14E5F0F /* TextFieldsEffects.swift in Sources */,
+				7749C0F56261255C270401EFF4F79806 /* YokoTextField.swift in Sources */,
+				1274BBA246640E419C6CD58307DFE2D2 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23F5ECCB90427D15B406F5ACA56F52A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD64BBA0AE179D2ADAC969F41F0F7151 /* Pods-EnMaster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36E87A1DDA916E2C246CAF853C8C06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D61A461592160C704EBD652E550794 /* Pods-EnMasterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D392292C5E432CF1C33EC1EE219625D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3C968E3EEC64354336500A25480860 /* Pods-EnMasterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FE24E635DC3E29FDF20CFAD47AE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DEC2D3601595D8C6850C8FB7173158 /* LTCharacterLimbo.swift in Sources */,
+				9CD2F676F12CF59997D469DC44040977 /* LTEasing.swift in Sources */,
+				94C184FAE53AE7FE2DAAF71250C88399 /* LTEmitterView.swift in Sources */,
+				35D1068A16F7B860DBF2FF11F7E88197 /* LTMorphingEffect.swift in Sources */,
+				87A5677A6AE8315FC08C7AFDA06C5E85 /* LTMorphingLabel+Anvil.swift in Sources */,
+				D40D84C336EB60A2349DA835277B3BB6 /* LTMorphingLabel+Burn.swift in Sources */,
+				82CCC01A0501720443407C7842A2F8EE /* LTMorphingLabel+Evaporate.swift in Sources */,
+				CFC6568F9625CFEDE89544D5E106EE56 /* LTMorphingLabel+Fall.swift in Sources */,
+				D7AF1C498BACC7A8145392B6E3AC91FB /* LTMorphingLabel+Pixelate.swift in Sources */,
+				401A7DAFE42E4A8D8B065ABB2B5028D1 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				0B0B16FE44CBECB512D2FC308055C7BB /* LTMorphingLabel-dummy.m in Sources */,
+				09655714894296138E974CBC74484E5C /* LTMorphingLabel.swift in Sources */,
+				D4BEFE9697D2C98014CEA515831D78EC /* NSString+LTMorphingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208B565A0EF2C9AE0AE0D1BA6F67B306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 0AFFBAC987FCE4DCA62E0184BFA599B9 /* TextFieldEffects */;
+			targetProxy = 8A40F4BE4102D29EE38F9A3F6E0D7293 /* PBXContainerItemProxy */;
+		};
+		CF22A35A82B7BB7CF5F50FEC305B1121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = 0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */;
+			targetProxy = 1E81808738F3C191C76926A3F64BB9A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003FCC28523900CD49CDB7636E7F5B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCDE77F8CBEF392C63091968A7EB40E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0822A192B2DAFEE3F528F5683A7C22E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6358DF646912109EF4DBB79FE8AFBD /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C3EDFAE48D3B9608AB4473895CA380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF2DB21F8C0EF6D0EB61A5FC19B55B2 /* Pods-EnMasterTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8AD2F1D007F2797B6347C87368D8A5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCDE77F8CBEF392C63091968A7EB40E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9947B29687DB4D3B2FAD4BBA71A5E2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDFD8313E666DC5FAFB47A236CE5145 /* Pods-EnMaster.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnMaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnMaster/Pods-EnMaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnMaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9978025D31330EE0C67E944329F984C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B704A2523A2CFCF23B2E1D3EBEB9882B /* Pods-EnMasterTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BCA728178DFB10579C8CCD9A590BF18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217068D5A6FDA5580EA2B64027AC12AA /* Pods-EnMaster.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnMaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnMaster/Pods-EnMaster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnMaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCCA28BB02323DAE9641055AC1274EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6358DF646912109EF4DBB79FE8AFBD /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D399670D5ED14319D77A5E51AC63C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAF81FF2AFA43D867D35CA36617CB79 /* Pods-EnMasterUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC3EA22B43E171A219111D035FA1D8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4318A7CB7599E6CD365773E379F65429 /* Pods-EnMasterUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0211E245EB47CD5143FAD3F65E034A88 /* Build configuration list for PBXNativeTarget "Pods-EnMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3EDFAE48D3B9608AB4473895CA380F /* Debug */,
+				9978025D31330EE0C67E944329F984C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E1BDFB25829BFC9B146A4630260780 /* Build configuration list for PBXNativeTarget "Pods-EnMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9947B29687DB4D3B2FAD4BBA71A5E2C1 /* Debug */,
+				BCA728178DFB10579C8CCD9A590BF18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A859F0BCB1ECCD26E56A079B687C62A /* Build configuration list for PBXNativeTarget "Pods-EnMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399670D5ED14319D77A5E51AC63C135 /* Debug */,
+				EC3EA22B43E171A219111D035FA1D8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E81816FCEF6099FFD16521EC61194E /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD2F1D007F2797B6347C87368D8A5AB /* Debug */,
+				003FCC28523900CD49CDB7636E7F5B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6BFD0F561BD7DC1612C7BF97AAE6BC /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0822A192B2DAFEE3F528F5683A7C22E8 /* Debug */,
+				CCCCA28BB02323DAE9641055AC1274EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
